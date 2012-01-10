@@ -1,0 +1,4 @@
+*Simple Club*
+This is a generalized, paired down version of a website I made for a campus club. To protect the client's privacy I have removed the original content and put in filler text.
+The website needed to give information about the club: who they were, who was involved, announcements, events and contact info. It is a project that, for the most part, I wrote from scratch. The site uses PHP to determine which events, announcements and team members are current. It was my first stab at a CMS-like website. I built basic functionality to allow certain users to create and edit events from the website. Of course, since this project, I have found many other products (like WordPress and Joomla) that are much more extensive and OpenSource (and developed by many!). I have since used WordPress when creating blogs or simple sites for friends.
+Being that this is one of my earlier, end-to-end projects, I'm still proud of it today.
