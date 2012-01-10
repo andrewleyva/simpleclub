@@ -1,0 +1,163 @@
+/*general tags*/
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body
+{
+	background-color: white;
+	background-attachment: fixed;
+	margin : 0px;
+	font-size : 12px;
+	color : black;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+
+}
+
+p {
+	margin : 0 0 10px 0;
+}
+
+#col1 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 200px;
+	height: 900px;
+	background-color: #226;
+}
+
+#col2 {
+	position: absolute;
+	top: 0;
+	left: 201px;
+	width: 600px;
+	margin: 20px 0 50px 20px;
+}
+
+#navigation
+{
+	list-style-type: none;
+	margin: 15px 0 0 0 ;
+}
+
+#navigation li
+{
+	display: block;
+	font-weight: bold;
+	font-size: 16px;
+	height: 30px;
+	border-bottom: solid 1px #CCC;
+	padding: 10px;
+}
+
+#navigation li:first-child {
+	border-top : solid 1px #CCC;	
+}
+
+#navigation li a {
+	color: white;
+	text-decoration: none;
+	width: 200px;
+} 
+#navigation li:hover {
+	background-color: #337;
+}
+
+#navigation li.clicked {
+	background-color: white;
+	color: black;
+}
+
+/* content */
+
+#content
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+/* headers */
+
+h1 /*page title*/
+{
+	margin: 0 0 20px 0;
+	color: #226;
+	font-size : 24px;
+}
+
+h2
+{
+	margin: 10px 0 10px 7px;
+	font-size:18px;
+	font-weight: bold;
+	color: #777;
+	line-height: normal;
+}
+
+h3
+{
+	margin: 7px 0 0 7px;
+	font-size:16px;
+	color: #226;
+}
+
+h3 + p {
+	margin: 0 0 10px 10px;
+}
+
+	
+/* footer */
+
+hr {
+	margin : 30px 0 30px 0;
+	border: 0;
+	color: #f00000;
+	background-color: #3f3f3f;
+	height: 1px;
+}
+
+#footer {
+
+	margin-top: 10px; /* sets space between body and footer */
+	position: fixed;
+	bottom: 0px;
+
+	width: 97%; /* not 100% because of left and right borders */
+	border-top: #3f3f3f 1px solid;
+
+
+	display: block;
+	
+	padding-left: 30px;
+	padding-top: 20px;
+		
+	font-size : 11px;
+	color : #728769;
+	background-color: black;
+	z-index: 100;
+}
+
+#footer a {
+	color : #728769;
+}
+
+
+.pop-titlebar
+{
+	float: none;
+	height: 20px;
+	border: 0px;
+	padding: 0px;
+	background-color: #66AC67;
+	background-image: url(../module/img/titlebar.jpg);
+}
+
+.pop-body
+{
+	padding: 5px;	
+}

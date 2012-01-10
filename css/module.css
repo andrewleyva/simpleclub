@@ -1,0 +1,84 @@
+/*new/edit*/
+
+#new input
+{
+height: 12px;
+display: inline;
+}
+
+#new textarea
+{
+margin-top: 20px;
+}
+/*new/edit*/
+
+
+.module
+{
+	display: block;
+
+	margin-right: 10px;
+	margin-top: 10px; /* sets space between modules */	
+
+	font-size: 12px;
+	line-height: 16px;
+
+	border: #CCC solid 1px;
+}
+
+.module .head
+{
+	display: block;
+	line-height: 18px;
+} 
+
+
+.module .head a
+{
+	display: table-cell;
+	vertical-align: top;
+	width: 98px;
+	height: 110px;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+.module .head a
+{
+	background-image: url(../img/arrow_down.jpg);
+	background-position: 0px 98px;
+}
+
+.module .head a:hover
+{
+	background-position: -98px 98px;
+}
+
+.module .head .facts
+{
+	padding-left: 7px;
+
+	display: table-cell;
+	vertical-align: top;
+
+	height: 110px;
+}
+
+/*body*/
+.module .body
+{
+	display: none;
+	margin: 0;
+	padding: 7px;
+}
+
+#toggle_all
+{
+	font-size: 12px;
+	text-decoration: underline;
+	text-align: right;
+	display: block;
+	cursor: hand;
+}
+
+#Open_All,#Close_All {display:block; cursor:hand}
