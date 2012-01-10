@@ -1,0 +1,54 @@
+#section dt
+{
+	margin:0;
+	padding:0;
+	height: 98px;
+	background-image: url(img/transp.png);
+} 
+
+#section dd
+{
+	margin:0;
+	padding: 5px;
+	margin-bottom: 10px;
+	background-image: url(img/transp.png);
+}
+
+
+#section dt a
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+#section dt a:hover,
+#section dt a:active,
+#section dt a:focus
+{
+	text-decoration: none;
+}
+
+#section .showDD
+{
+	display: block;
+}
+
+
+#section .hideDD
+{
+	display: none;
+}
+
+#section .DTplus
+{
+	margin-bottom: 10px;
+}
+
+
+#section .DTminus
+{
+	margin-bottom: 0px;
+}
+
+
+
+#Open_All,#Close_All {display:block; cursor:hand}
